@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int n, i, j;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    printf("Numbers from 1 to %d and from %d to 1:\n", n, n);
+    for (i = 1, j = n; i <= n; i++, j--)
+    {
+        printf("%d %d\n", i, j);
+    }
+    return 0;
+}
